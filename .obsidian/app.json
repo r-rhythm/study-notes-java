@@ -1,0 +1,25 @@
+{
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "*.png",
+    "*.assets"
+  ],
+  "attachmentFolderPath": "附件",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "卡片盒",
+  "promptDelete": false,
+  "readableLineLength": true,
+  "foldIndent": false,
+  "spellcheck": false,
+  "tabSize": 4,
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showFrontmatter": true,
+  "strictLineBreaks": false
+}

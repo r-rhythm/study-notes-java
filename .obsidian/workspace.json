@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "9097a108ad0b86f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9193a163ac08ee0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df2b963152f94aa0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/17_面试题/高频面试题.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b21b96c049aa39b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ac7e28e6b6fe614",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95dca5599b73f0e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7f24cf4288b01f4a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "925defd8a787fcb7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "8f435714a4922a6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "10b4f775876c4cbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a5eb90a6c8921fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/17_面试题/高频面试题.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ed1aff5b0b03b9d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/17_面试题/高频面试题.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "685da3060646e613",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8b8b02405970b263",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "笔记/17_面试题/高频面试题.md"
+              }
+            }
+          },
+          {
+            "id": "c7ebccd43789c756",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false
+    }
+  },
+  "active": "df2b963152f94aa0",
+  "lastOpenFiles": [
+    "笔记/01_Java_se/第五章 面向对象基础（上）.md",
+    "笔记/17_面试题/高频面试题.md",
+    "卡片盒/MyBatis.md",
+    "笔记/04_SSM/day10_SpringMVC处理请求与响应及视图解析器.md",
+    "卡片盒/集合.md",
+    "笔记/01_Java_se/第三章 流程控制语句结构.md",
+    "卡片盒/Redis.md",
+    "笔记/21_JVM/Java Virtual Machine.md",
+    "卡片盒/MySQL.md",
+    "笔记/25_gmall_总结/01_常用技术及工作流程.md"
+  ]
+}

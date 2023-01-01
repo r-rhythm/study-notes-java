@@ -1,0 +1,7 @@
+- 判断字符串是否为空,最好使用 StringUtils 来判断,**不可以直接使用 str.isEmpty()!!!** 空指针异常了~
+- Spring 在配置 application.yml 的时候,spring.datasource.username/password 有个坑,不要选错成 data-username/password 了
+- [[OpenFeign]] 远程调用的时候无法注入定义远程调用方法的接口,是因为注解使用错误,在定义方法的接口处要使用 @FeignClient ,不要错误使用 @EnableFeignClient 了
+- Test 测试单元的类名不能为 Test,否则无法正常导入 junit 测试包
+- 已经访问到接口但前端报错404未找到,可能是因为这个调用需要返回值而后端却没有加 @ResponseBody 注解返回数据导致的
+- Maven工程的模块包等不要该,直接永久删除后重新建
+- 如果前端没有解析到想要的数据,**先看看返回的对象是不是填错了**

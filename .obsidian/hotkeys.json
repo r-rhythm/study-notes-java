@@ -1,0 +1,23 @@
+{
+  "obsidian-translator:translate": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "note-composer:extract-heading": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "tag-pane:open": [],
+  "workspace:next-tab": [],
+  "file-explorer:new-file-in-new-pane": []
+}
