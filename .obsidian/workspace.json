@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "卡片盒/Spring.md",
+                "file": "卡片盒/Canal.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "自动装配原理",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "卡片盒/Spring.md",
+                "file": "卡片盒/Canal.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "卡片盒/Spring.md",
+                "file": "卡片盒/Canal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "卡片盒/Spring.md"
+                "file": "卡片盒/Canal.md"
               }
             }
           },
@@ -204,6 +203,7 @@
   },
   "active": "0beb909cf12d1083",
   "lastOpenFiles": [
+    "卡片盒/Spring.md",
     "笔记/17_面试题/高频面试题.md",
     "笔记/17_面试题/公司面试题.md",
     "卡片盒/SpringBoot.md",
@@ -212,7 +212,6 @@
     "卡片盒/集合.md",
     "笔记/02_MySql/MySql基础.md",
     "卡片盒/MySQL.md",
-    "笔记/04_SSM/day08_Spring声明式事务管理.md",
-    "笔记/26_算法/排序.md"
+    "笔记/04_SSM/day08_Spring声明式事务管理.md"
   ]
 }
