@@ -54,7 +54,7 @@
 
   * `ONBOOT=yes`
 
-  * ```shell
+   ```shell
     #IP地址
     IPADDR=192.168.6.100   
     #网关  
@@ -77,7 +77,7 @@
 
 * 开启及关闭服务
 
-  * ```shell
+   ```shell
     systemctl  	start		服务名		（功能描述：开启服务）
     systemctl  	stop		服务名		（功能描述：关闭服务）
     systemctl   restart	 	服务名		（功能描述：重新启动服务）
@@ -87,7 +87,7 @@
 
 * 设置后台服务自启
 
-  * ```shell
+   ```shell
     systemctl  list-unit-files   	   （功能描述：查看所有服务器自启配置）
     systemctl  disable 		服务名   	（功能描述：关掉指定服务的自动启动）
     systemctl  enable  		服务名  	（功能描述：开启指定服务的自动启动）
@@ -100,7 +100,7 @@
     >
     > **正确的关机流程为**：sync > shutdown > reboot >poweroff
 
-  * ```shell
+  ```shell
     sync  			（功能描述：将数据由内存同步到硬盘中）
     poweroff		（功能描述：关闭系统，等同于shutdown -h now）
     reboot 			（功能描述：就是重启，等同于 shutdown -r now）
@@ -111,7 +111,7 @@
 
 * 查看命令手册manual
 
-  * ```shell
+  ```shell
     man [命令或配置文件]		（功能描述：获得帮助信息)
     
     信息					功能
@@ -122,9 +122,9 @@
     SEE ALSO		相关主题（通常是手册页）
     ```
 
-* help
+help
 
-  * ```shell
+  ```shell
     help 命令	（功能描述：获得shell内置命令的帮助信息）
     ```
 

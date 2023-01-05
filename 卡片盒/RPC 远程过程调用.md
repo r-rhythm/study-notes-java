@@ -21,5 +21,5 @@
 3. 由 server stub 获取客户端发送过来的消息进行解包(*反序列化*)后调用服务本地的方法对请求进行处理
 4. 在服务端处理完毕后再次执行 打包(*序列化*) -> 解包(*反序列化*) 的过程
 5. client stub 和 server stub 之间通过 socket 进行传输
-[参阅](https://www.jianshu.com/p/9ccdea882688)
+[参阅: RPC中常见的Stub怎么理解](https://www.jianshu.com/p/9ccdea882688)
 

@@ -139,9 +139,9 @@ CyclicBarrier 和 CountDownLatch 的区别?
 
 ## Semaphore
 信号量,它可以控制同时访问资源的线程个数,设置初始化信号量后,如果当前信号量已经全部被获取,则其他线程等待,只有其他线程释放了资源后再进行分配
-- public Semaphore(int permits) permits 初始化信号量
-- acquire() 占用资源,当一个线程调用这个方法时,要么获取资源成功信号量-1,要么等待直至由线程释放信号量或超时
-- release() 释放资源,信号量+1,然后唤醒等待中的线程
+- `public Semaphore(int permits) permits` 初始化信号量
+- `acquire()` 占用资源,当一个线程调用这个方法时,要么获取资源成功信号量-1,要么等待直至由线程释放信号量或超时
+- `release()` 释放资源,信号量+1,然后唤醒等待中的线程
 
 代码示例:
 ```java
