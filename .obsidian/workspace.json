@@ -38,19 +38,33 @@
             }
           },
           {
-            "id": "e7441eaaf947d736",
+            "id": "242b5fb405f71ba0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "卡片盒/集合.md",
+                "file": "笔记/17_面试题/公司面试题.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0beb909cf12d1083",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "卡片盒/Spring.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MyISAM",
+                "query": "自动装配原理",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -96,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -116,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/17_面试题/高频面试题.md",
+                "file": "卡片盒/Spring.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/17_面试题/高频面试题.md",
+                "file": "卡片盒/Spring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/17_面试题/高频面试题.md"
+                "file": "卡片盒/Spring.md"
               }
             }
           },
@@ -187,17 +202,17 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "df2b963152f94aa0",
+  "active": "0beb909cf12d1083",
   "lastOpenFiles": [
-    "卡片盒/集合.md",
     "笔记/17_面试题/高频面试题.md",
     "笔记/17_面试题/公司面试题.md",
+    "卡片盒/SpringBoot.md",
+    "笔记/07_SpringBoot/day01_SpringBoot.md",
+    "卡片盒/Redis.md",
+    "卡片盒/集合.md",
     "笔记/02_MySql/MySql基础.md",
     "卡片盒/MySQL.md",
     "笔记/04_SSM/day08_Spring声明式事务管理.md",
-    "笔记/26_算法/排序.md",
-    "笔记/26_算法/查找.md",
-    "卡片盒/事务 Transaction.md",
-    "卡片盒/Redis.md"
+    "笔记/26_算法/排序.md"
   ]
 }

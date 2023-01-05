@@ -31,3 +31,10 @@
 - @ComponentScan 指定组件扫描路径
 - @Transactional 开启事务
 - @Scope 设置装配的对象为单例 *singleton* 或多例 *prototype*
+
+
+# Spring 循环依赖问题
+
+循环依赖是指一个或多个对象间直接或间接的相互依赖, 这种依赖就形成一个环形调用. 例如 A 依赖 B, B 也依赖 A, 就形成了循环依赖
+#GOTO 
+[参阅: 聊透Spring循环依赖 - 掘金 (juejin.cn)](https://juejin.cn/post/7146458376505917447)
