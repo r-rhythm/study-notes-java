@@ -1,3 +1,6 @@
+# 简介
+SQL (Structure Query Language) 结构化查询语言
+
 # 暂存盒
 - MySQL 数据库本质就是文件存储系统
 - 结果去重 distinct 将查询

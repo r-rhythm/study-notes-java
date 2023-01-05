@@ -48,12 +48,6 @@
   - MySql：`repeatable read`
   - Oracle：`read committed`
 
-# 事务的传播行为※
-> 在调用的过程中,到底使用谁的事务
-
-1. PROPAGATION_REQUIRED(*默认*) 若当前没有事务,就新建一个事务,如果已经在一个事务中,加入到这个事务
-2. PROPAGATION_REQUIRED_NEW 将当前事务挂起,创建新的事务执行~~新建一个事务,如果当前已经存在事务,将这个事务挂起使用新的事务~~
-3. PROPAGATION_SUPPORTS 支持当前事务,如果当前没有事务就以非事务的方式执行
 
 # 本地事务
 基于单个服务,操作单一数据库资源访问的事务称为本地事务

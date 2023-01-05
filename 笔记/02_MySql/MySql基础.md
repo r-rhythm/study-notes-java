@@ -30,11 +30,11 @@
 
 
 
-## MySQL基本语法
+# MySQL基本语法
 
-### DDL
+## DDL
 
-#### 创建数据库
+创建数据库
 
 ```mysql
 1.关键字:create database
@@ -42,7 +42,7 @@
   create database 数据库名 charset utf8;
 ```
 
-#### 查看数据库
+查看数据库
 
 ```mysql
 #查看所有数据库
@@ -52,7 +52,7 @@ show databases;
 show create database 数据库名
 ```
 
-#### 删除数据库
+删除数据库
 
 ```mysql
 1.关键字:drop
@@ -60,13 +60,13 @@ show create database 数据库名
   drop database 数据库名字
 ```
 
-#### 切换数据库
+切换数据库
 
 ```mysql
 use 数据库名;
 ```
 
-####  创建表
+创建表
 
 ```mysql
 1.关键字:create table
@@ -85,7 +85,7 @@ use 数据库名;
     一个主键可以代表一条数据(好比是身份证)
 ```
 
-#### 查看表
+查看表
 
 ```mysql
 #查看所有表
@@ -95,7 +95,7 @@ show tables;
 desc 表名; -- description
 ```
 
-#### 删除表
+删除表
 
 ```mysql
 1.关键字:drop table
@@ -103,16 +103,16 @@ desc 表名; -- description
   drop table 表名
 ```
 
-#### 修改表结构
+修改表结构
 
 ```mysql
 alter table 表名 add 列名 类型(长度) [约束];
 作用：添加列. 
 ```
 
-### DML[重点]
+## DML[重点]
 
-#### 插入数据
+插入数据
 
 ```mysql
 1.关键字:insert into values
@@ -120,7 +120,7 @@ alter table 表名 add 列名 类型(长度) [约束];
   insert into 表名(列名1,列名2,...) values (列值1,列值2)
 ```
 
-#### 删除数据
+删除数据
 
 ```mysql
 1.关键字:delete from
@@ -129,7 +129,7 @@ alter table 表名 add 列名 类型(长度) [约束];
   delete from 表名 where 条件-> 按照条件删除
 ```
 
-#### 修改数据
+修改数据
 
 ```mysql
 1.关键字:update set
@@ -140,9 +140,8 @@ alter table 表名 add 列名 类型(长度) [约束];
 
 
 
-## 简单查询[重点]
-
-### 简单查询
+简单查询
+为了使用 SELECT 检索数据, 你必须至少给出两条信息 (想要获取什么和从哪里获取)
 
 ```mysql
 1.关键字:select from where
@@ -159,8 +158,7 @@ alter table 表名 add 列名 类型(长度) [约束];
   b.查询出来的结果是一张伪表,这个表的数据是只读的,不能动
 ```
 
-### 条件查询
-
+条件查询
 * BETWEEN  ...AND... *显示在某一区间的值(含头含尾)*
 * 字段 IN(set) *查询该字段中值在set内的结果* `查询id为1,3,7的商品: id  in(1,3,7)`
 * LIKE *模糊查询*
@@ -171,8 +169,8 @@ alter table 表名 add 列名 类型(长度) [约束];
 * OR *有真则真*
 * NOT *不成立则为真*
 
-### 排序查询
 
+排序查询
 ```mysql
 1.关键字:order by  desc|asc
 2.语法:
@@ -183,29 +181,6 @@ alter table 表名 add 列名 类型(长度) [约束];
       
 3.先查询,后排序
 ```
-
-#### 书写sql语句关键字的顺序
-
-```mysql
-select 		列名		5
-from 		表名		1
-where 		条件		2
-group by 	分组		3
-having 		分组条件   4	
-order by	排序		6
-
-执行顺序:
-from 
-where 
-group by 
-having 
-select 
-order by
-
-先定位到要查询哪个表,然后根据什么条件去查,表确定好了,条件也确定好了,开始利用select查询
-查询得出一个结果,在针对这个结果进行一个排序
-```
-
 
 
 ## 单表查询
@@ -323,3 +298,24 @@ SELECT * FROM category c,products p WHERE c.`cid` = p.`category_id`;
   select 列名 from 表名 where (select 列名 from 表名)
 ```
 
+
+# SQL 关键字执行顺序
+```mysql
+select 		列名		5
+from 		表名		1
+where 		条件		2
+group by 	分组		3
+having 		分组条件     4	
+order by	排序		6
+
+执行顺序:
+from 
+where 
+group by 
+having 
+select 
+order by
+
+先定位到要查询哪个表,然后根据什么条件去查,表确定好了,条件也确定好了,开始利用select查询
+查询得出一个结果,在针对这个结果进行一个排序
+```

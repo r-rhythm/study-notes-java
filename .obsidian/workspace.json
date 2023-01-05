@@ -23,32 +23,6 @@
             }
           },
           {
-            "id": "dd318ea1e6da3139",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "卡片盒/Redis.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bec755acfc089a9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "卡片盒/Canal.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3590fcc4f8ba35dd",
             "type": "leaf",
             "pinned": true,
@@ -64,26 +38,13 @@
             }
           },
           {
-            "id": "6eef39a1d8224ba1",
+            "id": "e7441eaaf947d736",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "卡片盒/Redis.md",
+                "file": "卡片盒/集合.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6acdeb23e4a45f2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/20_MySQL高级/day04_ShardingSphere.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -139,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8f435714a4922a6d",
@@ -229,15 +189,15 @@
   },
   "active": "df2b963152f94aa0",
   "lastOpenFiles": [
-    "卡片盒/Redis.md",
+    "卡片盒/集合.md",
     "笔记/17_面试题/高频面试题.md",
-    "卡片盒/Canal.md",
-    "笔记/20_MySQL高级/day04_ShardingSphere.md",
     "笔记/17_面试题/公司面试题.md",
-    "笔记/20_MySQL高级/day01_MySQL高级-基础查询.md",
-    "笔记/20_MySQL高级/day02_MySQL高级-索引.md",
-    "笔记/20_MySQL高级/day03_索引失效及查询优化.md",
-    "笔记/25_gmall_总结/03_购物车订单,支付及秒杀.md",
-    "卡片盒/单点登录.md"
+    "笔记/02_MySql/MySql基础.md",
+    "卡片盒/MySQL.md",
+    "笔记/04_SSM/day08_Spring声明式事务管理.md",
+    "笔记/26_算法/排序.md",
+    "笔记/26_算法/查找.md",
+    "卡片盒/事务 Transaction.md",
+    "卡片盒/Redis.md"
   ]
 }
