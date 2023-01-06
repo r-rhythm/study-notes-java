@@ -44,6 +44,16 @@ SHOW GRANTS;
 	- 只缓存索引, 不缓存真实数据
 	- 系统自带的表使用
 
+# Char 与 Varchar 的区别
+1. `char` 类型是定长的, `varchar` 是可变的
+2. `char` 占用空间更大
+3. 查询效率 `char` 更高
+4. 定长的字段使用 char (身份证等), 不定长的字段使用 varchar 
+
+# DELETE 与 DROP 的区别
+1. `DELETE` 只删除数据, `drop` 删除数据、表、数据库
+2. `DELETE` 只删除数据记录, 不会删除表结构 (删除后主键自增), `drop` 全部删除
+
 # JOIN 连接查询
 ## 数据准备
 ```sql

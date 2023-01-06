@@ -6,4 +6,4 @@
 [参阅: 超详细canal入门，看这篇就够了 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/177001630)
 
 # 实现原理
-Canal 将自己伪装为一个 slave 节点, 利用 MySQL 的主从同步原理监听主机发送的 binlog 文件, 然后解析这个 binlog 文件, 在发送到存储目的地的
+Canal 将自己伪装为一个 slave 节点, 利用 MySQL 的主从同步原理监听主机发送的 binlog 文件, 然后解析这个 binlog 文件, 再将修改的消息发送到存储目的地的

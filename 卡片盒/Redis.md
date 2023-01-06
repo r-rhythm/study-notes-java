@@ -118,7 +118,7 @@
 - `hsetnx key field value` 只有当某个 file 不存在时才设置成功
 
 ## Zset (sorted set)
-> 数据结构为跳表
+> 数据结构为字典+跳表
 > 不重复的有序集合, 和 set 相似
 > 不同之处为有序集合的每个成员都关联了评分 (score), 按照从低到高排序
 - `zadd key score member [score member ...]` 将一个或多个 member 元素及其 score 值加入到有序集 key 当中。
@@ -297,6 +297,8 @@ Redis 采用[[乐观锁]]
 - 容灾快速恢复
 
 ## 数据一致性问题
+
+
 同步频率
 - Appendfsync always 始终同步，每次 Redis 的写入都会立刻记入日志
 - Appendfsync everysec 每秒同步，每秒记入日志一次，如果宕机，本秒的数据可能丢失
