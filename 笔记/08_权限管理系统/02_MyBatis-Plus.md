@@ -1,11 +1,9 @@
 ## MyBatis-Plus
-
-![[MyBatis-Plus]]
+[[MyBatis-Plus]]
 
 
 ### 依赖
-
-* ```xml
+ ```xml
   <dependency>
       <groupId>com.baomidou</groupId>
       <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -27,7 +25,7 @@
 
 * application-dev.yaml
 
-  * ```yaml
+ ```yaml
     server:
       port: 8800
     #配置在控制台输出MyBatisPlus执行的Sql语句

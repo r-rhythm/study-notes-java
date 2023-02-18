@@ -13,7 +13,7 @@
   4. 镜像相当于类,容器相当于对象,容器是镜像的实例,一个镜像可以创建多个容器
   5. Dockers守护进程,负责支撑Docker容器的运行及镜像的管理
 
-# 安装使用
+# Linux 环境下安装使用
 1. 安装必要的系统工具
 ```shell
 yum -y install gcc
@@ -93,10 +93,8 @@ vim  /etc/docker/daemon.json
 - docker load -i 文件名 将 tar文件恢复为容器
 
 
-# 制作 Docker 镜像
-准备工作
-- Dockerfile 文件,里面指定 jdk 版本,缓冲区位置及 jar 包名称
-- jar 包
+# Dockerfile
+
 
 
 ---

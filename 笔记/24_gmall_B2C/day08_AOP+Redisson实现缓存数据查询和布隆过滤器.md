@@ -11,7 +11,7 @@
 3. 在配置类中创建Redission客户端实例,并注入 IOC 容器
 
 ## API 的使用
-- 通过 `redisson.getLock("lockName")` 获取 Rlock 锁对象,它继承自 [[day02_JUC辅助工具类|JUC]] 的 Lock 对象,所以对于 api 的使用也是相似的
+- 通过 `redisson.getLock("lockName")` 获取 Rlock 锁对象,它继承自 [[02_JUC辅助工具类|JUC]] 的 Lock 对象,所以对于 api 的使用也是相似的
 - lock.tryLock() 尝试获取锁,没有获得则自旋,可以指定等待时间
 - lock.unLock() 释放锁
 - ...

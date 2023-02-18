@@ -66,7 +66,7 @@ ReentrantLock 的获取锁和释放锁需要手动实现, 他会更加灵活, �
 使用 while 循环判断, 让线程每次被唤醒时都走一遍条件判断, 只有符合条件才能执行相关业务逻辑
 
 ## 线程通信 Condition
-New ReentrantLock (). NewCondition ();
+`new ReentrantLock().NewCondition();`
 一个 Condition 就相当于绑定了一个锁, 每个锁可以有多个条件
 
 ## 定制化调用通信

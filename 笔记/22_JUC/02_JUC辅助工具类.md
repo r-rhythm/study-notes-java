@@ -4,9 +4,9 @@
 并发容器类是 Java 并发编程包 `java.util.concurrent` 提供的用于解决多线程下集合类的线程安全问题的工具类统称
 
 ## 线程安全的集合类型
-- CopyOnWrite 写时复制容器
-- Collections. SynchronizedXxx 线程安全的集合
-- ConcurrentHashMap 线程安全的 HashMap 
+- CopyOnWrite 写时复制容器, 他底层采用了 `ReentrantLock` 锁, 对增删改方法进行了加锁, 能够做到并发读, 独立写
+- Collections. SynchronizedXxx 线程安全的集合, 他底层通过 `synchronized` 关键字来保障并发下的线程安全
+- ConcurrentHashMap 线程安全的 HashMap, 他底层使用了 `Unsafe` 类的 [[03_线程池与volatile#CAS|CAS]] 乐观锁算法加 `volatile` 关键字修饰变量, 在某一线程修改前先将原值做对比, 如果一直则修改成功
 
 *注: Vector/Collections 中的迭代器默认是不同步的, 必须由程序员手动实现*
 
@@ -205,8 +205,8 @@ Atomic 原子类是 jdk1.5 提供的 `java.util.concurrent.atomic` 包下提供�
 在某些场景下, 我们希望的只是保证共享变量的更新操作不会让程序的运行产生混乱, 便可以使用比锁更加轻量化且性能更高的原子类
 
 ## 实现原理
-Atomic 使用 [[day03_线程池与volatile#CAS|CAS]] + [[day03_线程池与volatile#Volatile 关键字|volatile]] 的方式, 做到了在保证性能和线程安全的情况下对线程间共享变量的更新
-1. 原子类基于 `Unsafe` 类与自旋操作实现
+Atomic 使用 [[03_线程池与volatile#CAS|CAS]] + [[03_线程池与volatile#Volatile 关键字|volatile]] 的方式, 做到了在保证性能和线程安全的情况下对线程间共享变量的更新
+1. 原子类基于 `Unsafe` 类的 `compareAndSwapInt` 方法与自旋操作实现
 2. 使用 `volatile` 关键字修饰变量, 保证了变量一旦被某一线程修改, 其他线程能够立刻感知到并更新变量值
 3. 使用 `CompareAndSwap` 比较并更新, 保证了不会发生多个线程同时修改一个共享变量成功的情况  [ABA 问题](https://javaguide.cn/java/concurrent/atomic-classes.html#atomic-%E5%8E%9F%E5%AD%90%E7%B1%BB%E4%BB%8B%E7%BB%8D)
 

@@ -2,7 +2,7 @@
 
 ## 简介
 
-1. Futrure 接口的一个实现类,[[day02_JUC辅助工具类#Callable <V> 接口]]中使用的 FurtrureTask 类和他实现的是同样的接口,在 Jdk1.8 以前,使用它作为异步计算.他通过使用 `isDone()` 来判断任务是否执行完毕, `get()` 来获取任务结果,但问题在于,这两个方法的调用都需要阻塞当前线程
+1. Futrure 接口的一个实现类,[[02_JUC辅助工具类#Callable <V> 接口]]中使用的 FurtrureTask 类和他实现的是同样的接口,在 Jdk1.8 以前,使用它作为异步计算.他通过使用 `isDone()` 来判断任务是否执行完毕, `get()` 来获取任务结果,但问题在于,这两个方法的调用都需要阻塞当前线程
 2. 在 Jdk1.8 中,为了解决线程阻塞的问题,添加了 CompletableFurture 类,它改为采用==回调函数==的形式,解决了 FurtureTask 在获取结果时会阻塞当前线程的问题
 3. CompletableFurture 提供了强大的异步扩展功能,它能将多个任务进行转换和组合,并通过回调的方式计算处理结果.可以帮助我们大幅简化异步编程的复杂度
 
@@ -35,7 +35,7 @@ supplyAsync() 有返回值
 
 在 itemService (商品详情信息整合模块) 中使用使用异步调用, 最后将他们编排为一个组, 全部执行完毕后返回数据
 
-ItemServiceImpl 代码: 其中 executor 为自定线程池, 参见 [[day03_线程池与volatile#自定义线程池]]
+ItemServiceImpl 代码: 其中 executor 为自定线程池, 参见 [[03_线程池与volatile#自定义线程池]]
 ```java
 package com.atguigu.gmall.item.service.impl;
 

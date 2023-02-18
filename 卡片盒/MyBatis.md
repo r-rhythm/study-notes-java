@@ -14,6 +14,7 @@
 	3. 解决方案:将 xml 放到 resouces 目录下或通过配置方式去加载 xml 文件
 		1. 在 pom 文件中添加配置
 		2. 在 properties | yml 配置文件中添加配置
+3. 在创建 `Resources.mapper.xx` XML 文件所在位置的时候,==必须一层一层的创建这个 directory 下的路劲==, 不可以用级联的方式直接. 创建, 否则他会将点也识别为文件夹名称, 踩坑...
 
 # MyBatis 框架搭建
  [参见](https://mybatis.org/mybatis-3/zh/getting-started.html)

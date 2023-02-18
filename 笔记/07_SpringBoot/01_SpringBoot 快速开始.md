@@ -134,9 +134,9 @@
 - 编写自动配置属性文件
   - > 这个属性文件创建之后,spring boot 会在运行启动类的时候加载它
   - 在 `resource` 文件夹下面新建 `META-INF/spring.factories`
-   ```properties
+```properties
     org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.atguigu.autoconfig.DataSourceAutoConfiguration
-    ```
+```
 
 - 做完了之后注意要执行 install , 安装项目
 
@@ -144,7 +144,7 @@
 
 - 在其他项目中引入依赖
 
-  - ```xml
+ ```xml
     <!--  引入自定义加载器-->
             <dependency>
                 <groupId>com.atguigu</groupId>
@@ -155,7 +155,7 @@
 
 * **配置连接池信息**
 
-  * ```yaml
+ ```yaml
     spring:
       jdbc:
         datasource:
@@ -167,7 +167,7 @@
 
 - 测试
 
-  - ```java
+ ```java
     @RestController
     public class TestController {
 

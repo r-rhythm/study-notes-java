@@ -4,46 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c9193a163ac08ee0",
+        "id": "b1dbe156b2709ed1",
         "type": "tabs",
         "children": [
           {
-            "id": "df2b963152f94aa0",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/17_面试题/高频面试题.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "0beb909cf12d1083",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/17_面试题/公司面试题.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "64d4fb8e55b82a68",
+            "id": "d1dc2bb92f6410f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/22_JUC/day02_JUC辅助工具类.md",
+                "file": "笔记/28_CAMEL/Apache CAMEL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,12 +21,64 @@
             }
           },
           {
-            "id": "83723803b805f71a",
+            "id": "f566391cabd7ec70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "卡片盒/事务 Transaction.md",
+                "file": "笔记/27_IOC运管平台/遗留问题.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "048b075c6ec8ec8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/02_MySql/MySql基础.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37cfbbcf43d15524",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "卡片盒/开发手册.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "393ec20006216d8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/27_IOC运管平台/2023年2月13日-会议.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3c7eea2632fa44c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/28_CAMEL/Apache CAMEL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -64,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -93,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "年龄",
+                "query": "tiny",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -110,8 +132,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/17_面试题/公司面试题.md",
+                "file": "笔记/28_CAMEL/Apache CAMEL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/17_面试题/公司面试题.md",
+                "file": "笔记/28_CAMEL/Apache CAMEL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -171,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/17_面试题/公司面试题.md"
+                "file": "笔记/28_CAMEL/Apache CAMEL.md"
               }
             }
           },
@@ -184,11 +205,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,17 +224,17 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "0beb909cf12d1083",
+  "active": "e3c7eea2632fa44c",
   "lastOpenFiles": [
-    "笔记/22_JUC/day02_JUC辅助工具类.md",
-    "笔记/21_JVM/Java Virtual Machine.md",
-    "笔记/17_面试题/公司面试题.md",
-    "笔记/17_面试题/高频面试题.md",
-    "卡片盒/单点登录.md",
-    "卡片盒/Redis.md",
-    "笔记/20_MySQL高级/day01_MySQL高级-基本概念.md",
-    "卡片盒/事务 Transaction.md",
-    "笔记/20_MySQL高级/day04_MySQL高级-分库分表.md",
-    "笔记/20_MySQL高级/day03_索引失效及查询优化.md"
+    "笔记/25_gmall_review/01_常用技术及工作流程.md",
+    "卡片盒/MyBatis.md",
+    "卡片盒/开发手册.md",
+    "笔记/17_InterviewQA/高频面试题.md",
+    "笔记/27_IOC运管平台/双碳api相关问题.md",
+    "卡片盒/MongoDB.md",
+    "卡片盒/SpringData.md",
+    "笔记/27_IOC运管平台/数据.md",
+    "笔记/28_CAMEL/Apache CAMEL.md",
+    "笔记/27_IOC运管平台/未命名.md"
   ]
 }

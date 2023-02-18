@@ -209,7 +209,7 @@
 > 3. 若 URL 存在执行 DispatcherServlet 的 doDispatch 方法
 >    1. 初始化 `HandlerMapping/HandlerExecutionChain /HandlerAdapter` 三个对象
 > 4. 执行 HandlerExecutionChain 的 applyHandle()方法,如果是 true
-> 5. 执行 ha.handle()触发 controller 中相应方法
+> 5. 执行 ha. Handle () 触发 controller 中相应方法
 > 6. 判断 controller 中是否存在异常
 >    1. 有异常执行异常处理器
 >    2. 无异常执行拦截器的第二个方法 `postHandle()`
